@@ -1,0 +1,10 @@
+numbers=[1,2,3,5,6,2,2]
+print("List given: ",numbers)
+numbers.insert(3,4)
+print("List after insrting numbers: ",numbers)
+numbers.pop()
+print("List after deleting number: ",numbers)
+numbers.sort()
+print("Sorted list: ",numbers)
+numbers.reverse()
+print("Reversed list: ",numbers)
